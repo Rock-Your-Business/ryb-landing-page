@@ -94,7 +94,9 @@
     }
   </script>
 
-  <link rel="stylesheet" href="styles.css?v=10" />
+  <link rel="stylesheet" href="styles.css?v=13" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+
 
   <script type="application/ld+json">
   {
@@ -204,8 +206,8 @@
       </div>
 
       <div class="hidden items-center gap-3 sm:flex">
-        <a href="https://app.rockyourbusiness.com.br/" class="rounded-full px-5 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-100">Entrar</a>
-        <a href="https://app.rockyourbusiness.com.br/" class="btn-primary">Começar agora</a>
+        <a href="https://app.rockyourbusiness.com.br/login" class="rounded-full px-5 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-100">Entrar</a>
+        <a href="https://app.rockyourbusiness.com.br/signup" class="btn-primary">Começar agora</a>
       </div>
 
       <button id="menu-button" type="button" class="grid h-11 w-11 place-items-center rounded-2xl border border-slate-200 lg:hidden" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
@@ -220,198 +222,67 @@
         <a href="#planos" style="display: none;">Planos</a>
         <a href="#insights">Insights</a>
         <a href="#faq">Dúvidas</a>
-        <a href="https://app.rockyourbusiness.com.br/" class="btn-primary mt-2 justify-center">Começar agora</a>
+        <a href="https://app.rockyourbusiness.com.br/signup" class="btn-primary mt-2 justify-center">Começar agora</a>
       </div>
     </div>
   </header>
 
   <main id="conteudo">
-    <section class="hero-grid relative overflow-hidden pb-20 pt-36 lg:pb-28 lg:pt-44">
-      <div class="pointer-events-none absolute inset-0 -z-10">
-        <div class="absolute left-1/2 top-10 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-ryb-100/70 blur-3xl"></div>
-      </div>
-
+    <section class="ryb-hero relative overflow-hidden pb-20 pt-36 lg:pb-28 lg:pt-44">
       <div class="mx-auto grid max-w-7xl items-center gap-14 px-5 lg:grid-cols-[1.02fr_.98fr] lg:px-8">
         <div>
-          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-ryb-200 bg-ryb-50 px-4 py-2 text-sm font-semibold text-ryb-700">
-            <i data-lucide="sparkles" class="h-4 w-4"></i>
-            Inteligência editorial para o mercado de seguros
-          </div>
-
-          <h1 class="max-w-4xl text-4xl font-extrabold leading-[1.05] tracking-[-0.045em] sm:text-5xl lg:text-7xl">
-            Transforme conhecimento em
-            <span class="text-ryb-500">autoridade e novos negócios.</span>
-          </h1>
-
-          <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">
-            Planeje o mês, escolha as melhores ideias, produza conteúdos com IA e mantenha sua corretora presente nas redes sociais — sem depender de improviso, agência ou horas diante de uma tela em branco.
-          </p>
-
-          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a href="https://app.rockyourbusiness.com.br/" class="btn-primary justify-center px-7 py-2 text-base">
-              Criar meu plano editorial
-              <i data-lucide="arrow-right" class="h-5 w-5"></i>
-            </a>
-            <a href="#como-funciona" class="btn-secondary justify-center px-7 py-2 text-base">
-              Ver como funciona
-              <i data-lucide="play-circle" class="h-5 w-5"></i>
-            </a>
-          </div>
-
-          <div class="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-slate-600">
-            <span class="inline-flex items-center gap-2"><i data-lucide="check-circle-2" class="h-4 w-4 text-emerald-500"></i>Feita para corretores de seguros</span>
-            <span class="inline-flex items-center gap-2"><i data-lucide="check-circle-2" class="h-4 w-4 text-emerald-500"></i>Sem contrato de permanência</span>
-            <span class="inline-flex items-center gap-2"><i data-lucide="check-circle-2" class="h-4 w-4 text-emerald-500"></i>Conteúdo com estratégia</span>
-          </div>
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-ryb-200 bg-ryb-50 px-4 py-2 text-sm font-semibold text-ryb-700"><i data-lucide="sparkles" class="h-4 w-4"></i> Marketing com IA para corretores de seguros</div>
+          <h1 class="max-w-4xl text-4xl font-extrabold leading-[1.04] tracking-[-0.05em] sm:text-5xl lg:text-7xl">Transforme o conhecimento da sua corretora em <span class="text-ryb-500">presença, autoridade e oportunidades.</span></h1>
+          <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">A Rock Your Business encontra oportunidades, sugere ideias e transforma cada tema em conteúdos para LinkedIn, Instagram, Facebook, artigos, e-mail, carrosséis e stories.</p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row"><a href="https://app.rockyourbusiness.com.br/signup" class="btn-primary justify-center px-7 py-2 text-base">Testar grátis por 7 dias <i data-lucide="arrow-right" class="h-5 w-5"></i></a><a href="#radar" class="btn-secondary justify-center px-7 py-2 text-base">Conhecer a plataforma <i data-lucide="play-circle" class="h-5 w-5"></i></a></div>
+          <div class="mt-5 text-sm font-semibold text-slate-500">7 dias grátis. Sem cartão de crédito.</div>
         </div>
+        <div class="product-flow" aria-label="Fluxo da Rock Your Business">
+          <div class="flow-orbit flow-orbit-a"></div><div class="flow-orbit flow-orbit-b"></div>
+          <div class="flow-top"><span class="flow-icon"><i data-lucide="radar"></i></span><div><small>RADAR</small><strong>Oportunidade encontrada</strong><p>Tema relevante para sua corretora</p></div></div>
+          <div class="flow-arrow"><i data-lucide="arrow-down"></i></div>
+          <div class="flow-top flow-inspire"><span class="flow-icon"><i data-lucide="sparkles"></i></span><div><small>INSPIRE ME</small><strong>Ideia personalizada</strong><p>Baseada no perfil da sua marca</p></div></div>
+          <div class="flow-arrow"><i data-lucide="arrow-down"></i></div>
+          <div class="flow-core"><small>CONTEÚDO PRINCIPAL</small><strong>Uma ideia. Vários formatos.</strong></div>
+          <div class="flow-channels"><span>LinkedIn</span><span>Instagram</span><span>Facebook</span><span>Artigos</span></div>
+          <div class="flow-channels2"><span>E-mail</span><span>Carrossel</span><span>Story</span></div>
+        </div>
+      </div>
+    </section>
 
-        <div class="relative">
-          <div class="absolute -inset-6 -z-10 rounded-[2.5rem] bg-gradient-to-br from-ryb-200/60 via-white to-slate-200/70 blur-2xl"></div>
-          <div class="rounded-[2rem] border border-slate-200 bg-white p-3 shadow-soft">
-            <!-- IMAGEM: substitua o src abaixo por um print real do dashboard da plataforma -->
-            <img src="imgs/dashboard1.png" width="1280" height="900" alt="Dashboard da plataforma Rock Your Business" class="aspect-[4/3] w-full rounded-[1.4rem] object-cover object-top" fetchpriority="high" />
-          </div>
-          <div class="absolute -bottom-5 -left-4 hidden rounded-3xl border border-slate-200 bg-white p-4 shadow-soft sm:block">
-            <div class="flex items-center gap-3">
-              <span class="grid h-10 w-10 place-items-center rounded-2xl bg-emerald-50 text-emerald-600"><i data-lucide="calendar-check-2" class="h-5 w-5"></i></span>
-              <span><strong class="block text-sm">Plano de publicação pronto</strong><small class="text-slate-500">Estratégia, datas e próximos passos</small></span>
+    <section class="positioning-strip"><div class="mx-auto max-w-7xl px-5 lg:px-8"><span>DESCOBRIR</span><i data-lucide="arrow-right"></i><span>PLANEJAR</span><i data-lucide="arrow-right"></i><span>CRIAR</span><i data-lucide="arrow-right"></i><span>PUBLICAR</span></div></section>
+
+    <section class="py-24 lg:py-32"><div class="mx-auto max-w-7xl px-5 lg:px-8"><div class="mx-auto max-w-3xl text-center"><span class="section-kicker">Muito mais do que gerar posts</span><h2 class="section-title">Sua corretora já tem conhecimento. A RYB transforma isso em comunicação.</h2><p class="section-copy">Uma plataforma criada para descobrir o que vale comunicar, organizar ideias e transformar oportunidades em conteúdo contínuo e estratégico.</p></div><div class="mt-14 grid gap-5 md:grid-cols-4"><article class="feature-card"><span class="icon-box"><i data-lucide="radar"></i></span><h3>Descubra</h3><p>Encontre oportunidades relevantes para o perfil da sua corretora.</p></article><article class="feature-card"><span class="icon-box"><i data-lucide="lightbulb"></i></span><h3>Planeje</h3><p>Escolha ideias alinhadas aos seus produtos, públicos e objetivos.</p></article><article class="feature-card"><span class="icon-box"><i data-lucide="wand-sparkles"></i></span><h3>Crie</h3><p>Produza conteúdo com contexto e adapte para cada canal.</p></article><article class="feature-card"><span class="icon-box"><i data-lucide="send"></i></span><h3>Publique</h3><p>Organize o calendário e mantenha sua marca em movimento.</p></article></div></div></section>
+
+    <section id="radar" class="product-story product-story-dark"><div class="mx-auto grid max-w-7xl items-center gap-14 px-5 lg:grid-cols-2 lg:px-8"><div><span class="section-kicker text-ryb-300">Opportunity Radar</span><h2>Descubra assuntos que podem virar oportunidades para sua corretora.</h2><p>O Radar acompanha fontes relevantes do mercado, identifica acontecimentos com potencial de comunicação e seleciona oportunidades de acordo com o perfil da sua corretora.</p><p class="story-emphasis">Você não precisa acompanhar dezenas de fontes todos os dias. O Radar ajuda a encontrar o que merece sua atenção.</p><a href="https://app.rockyourbusiness.com.br/signup" class="story-link">Experimentar o Radar <i data-lucide="arrow-right"></i></a></div><div class="code-ui code-ui-dark"><div class="ui-head"><span><i data-lucide="radar"></i> RADAR</span><small>HOJE</small></div><h3>Oportunidades para sua corretora</h3><div class="opportunity-card featured"><div class="ui-meta"><span>SEGURO EMPRESARIAL</span><small>Hoje</small></div><strong>Novo cenário aumenta a atenção das PMEs para proteção</strong><p>Um tema com potencial para educar clientes e abrir novas conversas.</p><div class="match-row"><span>Alta aderência ao seu perfil</span><b>92%</b></div><a>Criar conteúdo →</a></div><div class="mini-opps"><div><small>CYBER</small><strong>Nova oportunidade</strong></div><div><small>VIDA</small><strong>Tema em destaque</strong></div></div></div></div></section>
+
+    <section id="inspire-me" class="product-story"><div class="mx-auto grid max-w-7xl items-center gap-14 px-5 lg:grid-cols-2 lg:px-8"><div class="code-ui"><div class="ui-head"><span><i data-lucide="sparkles"></i> INSPIRE ME</span><small>PARA SUA MARCA</small></div><h3>Ideias para sua corretora</h3><div class="idea-card"><small>SEGURO EMPRESARIAL</small><strong>3 riscos que pequenas empresas costumam descobrir tarde demais</strong><div class="idea-tags"><span>Autoridade</span><span>PMEs</span></div><a>Criar conteúdo →</a></div><button class="fake-button">✦ Gerar novas ideias</button></div><div><span class="section-kicker">Inspire Me</span><h2>Nunca mais comece pela pergunta: “o que vamos postar?”</h2><p>Com base nos produtos, públicos, objetivos, posicionamento e diferenciais da sua corretora, o Inspire Me cria ideias pensadas para a sua realidade.</p><p class="story-emphasis light">Não é uma lista genérica de temas. É inspiração com contexto para a sua marca.</p><a href="https://app.rockyourbusiness.com.br/signup" class="story-link">Gerar minhas ideias <i data-lucide="arrow-right"></i></a></div></div></section>
+
+    <!-- Seção de recursos -->
+
+
+    <section id="recursos" class="product-story bg-slate-50"><div class="mx-auto max-w-7xl px-5 lg:px-8">
+      <div class="mx-auto max-w-3xl text-center"><span class="section-kicker">Da ideia ao conteúdo</span><h2 class="section-title">Uma boa ideia. Conteúdo pensado para cada canal.</h2><p class="section-copy">Crie o conteúdo principal e aproveite o mesmo tema em formatos diferentes, respeitando a linguagem e a função de cada canal.</p></div>
+        <div class="content-derivation mt-14">
+          <div class="derivation-core"><small>IDEIA PRINCIPAL</small><strong>Como proteger uma pequena empresa de riscos inesperados?</strong></div><div class="derivation-line"></div>
+            <div class="channel-grid">
+              <div><i class="fab fa-linkedin"></i><strong>LinkedIn</strong><small>Post profissional</small></div>
+              <div><i class="fab fa-instagram"></i><strong>Instagram</strong><small>Legenda adaptada</small></div>
+              <div><i class="fab fa-facebook"></i><strong>Facebook</strong><small>Conteúdo para comunidade</small></div>
+              <div><i class="fas fa-file"></i><strong>Artigos</strong><small>Conteúdo aprofundado</small></div>            
+              <div><i data-lucide="mail"></i><strong>E-mail</strong><small>Relacionamento</small></div>
+              <div><i data-lucide="gallery-horizontal-end"></i><strong>Carrossel</strong><small>Peça visual</small></div>
+              <div><i data-lucide="smartphone"></i><strong>Story</strong><small>Formato vertical</small></div>
             </div>
           </div>
-        </div>
       </div>
     </section>
 
-    <section class="border-y border-slate-200 bg-slate-50 py-8">
-      <div class="mx-auto max-w-7xl px-5 lg:px-8">
-        <p class="text-center text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Uma plataforma criada por quem entende o mercado de seguros</p>
-        <div class="mt-6 grid grid-cols-2 gap-4 text-center sm:grid-cols-4">
-          <div><strong class="block text-2xl font-extrabold">Estratégia</strong><span class="text-sm text-slate-500">antes do conteúdo</span></div>
-          <div><strong class="block text-2xl font-extrabold">IA especializada</strong><span class="text-sm text-slate-500">no contexto da corretora</span></div>
-          <div><strong class="block text-2xl font-extrabold">Calendário</strong><span class="text-sm text-slate-500">para transformar plano em ação</span></div>
-          <div><strong class="block text-2xl font-extrabold">Biblioteca</strong><span class="text-sm text-slate-500">para organizar o que produz</span></div>
-        </div>
-      </div>
-    </section>
+    <section class="product-story product-story-dark"><div class="mx-auto grid max-w-7xl items-center gap-14 px-5 lg:grid-cols-[.85fr_1.15fr] lg:px-8"><div><span class="section-kicker text-ryb-300">Conteúdo visual</span><h2>Não fique apenas no texto.</h2><p>Transforme suas ideias em carrosséis e stories alinhados à comunicação da sua corretora. Conteúdo e peça visual passam a fazer parte do mesmo fluxo.</p></div><div class="visual-maker"><div class="carousel-mock"><div class="mock-brand">SUA CORRETORA</div><small>RISCO EMPRESARIAL</small><strong>5 riscos que uma PME não deveria ignorar.</strong><div class="mock-dots"><b></b><b></b><b></b><b></b></div></div><div class="story-mock"><div class="mock-brand">SUA CORRETORA</div><small>VOCÊ SABIA?</small><strong>Seu negócio pode estar mais exposto do que parece.</strong><span>Saiba mais ↑</span></div></div></div></section>
 
-    <section class="py-24 lg:py-32">
-      <div class="mx-auto max-w-7xl px-5 lg:px-8">
-        <div class="mx-auto max-w-3xl text-center">
-          <span class="section-kicker">O problema</span>
-          <h2 class="section-title">Sua corretora não precisa publicar mais. Precisa comunicar melhor.</h2>
-          <p class="section-copy">A maioria dos corretores sabe que deveria estar presente no digital. O problema é transformar conhecimento técnico em uma comunicação constante, relevante e comercialmente inteligente.</p>
-        </div>
+    <section id="como-funciona" class="product-story"><div class="mx-auto grid max-w-7xl items-center gap-14 px-5 lg:grid-cols-2 lg:px-8"><div class="calendar-ui"><div class="ui-head"><span><i data-lucide="calendar-days"></i> CALENDÁRIO</span><small>SEMANA</small></div><div class="week"><div><b>SEG</b><span class="event">LinkedIn</span></div><div><b>TER</b></div><div><b>QUA</b><span class="event orange">Story</span><span class="event">Instagram</span></div><div><b>QUI</b><span class="event">Carrossel</span></div><div><b>SEX</b><span class="event orange">Facebook</span></div></div></div><div><span class="section-kicker">Planeje, organize e publique</span><h2>Do planejamento à publicação, tudo no mesmo fluxo.</h2><p>Organize conteúdos e peças por data, acompanhe o que está pronto e mantenha uma visão clara da comunicação da sua corretora.</p><ul class="story-list"><li><i data-lucide="check"></i> Calendário semanal para uma rotina com vários conteúdos no mesmo dia.</li><li><i data-lucide="check"></i> Biblioteca para manter ideias e conteúdos organizados.</li><li><i data-lucide="check"></i> Publicação nos canais conectados e apoio para formatos de copiar e colar.</li></ul></div></div></section>
 
-        <div class="mt-14 grid gap-5 md:grid-cols-3">
-          <article class="feature-card">
-            <span class="icon-box"><i data-lucide="clock-3"></i></span>
-            <h3>Falta tempo</h3>
-            <p>O conteúdo sempre fica para depois porque a operação, os clientes e as renovações vêm primeiro.</p>
-          </article>
-          <article class="feature-card">
-            <span class="icon-box"><i data-lucide="lightbulb-off"></i></span>
-            <h3>Falta clareza</h3>
-            <p>Sem um plano, é difícil decidir o que publicar, para quem falar e como conectar conteúdo a negócios.</p>
-          </article>
-          <article class="feature-card">
-            <span class="icon-box"><i data-lucide="message-square-x"></i></span>
-            <h3>Falta consistência</h3>
-            <p>Posts isolados não constroem autoridade. A confiança nasce de uma presença coerente ao longo do tempo.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="como-funciona" class="bg-slate-950 py-24 text-white lg:py-32">
-      <div class="mx-auto max-w-7xl px-5 lg:px-8">
-        <div class="grid gap-14 lg:grid-cols-[.9fr_1.1fr] lg:items-center">
-          <div>
-            <span class="section-kicker text-ryb-300">Como funciona</span>
-            <h2 class="mt-4 text-4xl font-extrabold tracking-tight sm:text-5xl">Da estratégia à publicação, em um fluxo simples.</h2>
-            <p class="mt-6 text-lg leading-8 text-slate-300">A Rock Your Business organiza o processo editorial para que sua corretora saiba o que dizer, quando publicar e como transformar cada conteúdo em um ativo de autoridade.</p>
-
-            <div class="mt-10 space-y-6">
-              <div class="step-row"><span>1</span><div><strong>Defina o perfil estratégico</strong><p>Produtos, públicos, posicionamento, pilares e objetivos da corretora.</p></div></div>
-              <div class="step-row"><span>2</span><div><strong>Escolha o Plano de Publicação</strong><p>Receba ideias e selecione apenas as que fazem sentido para o mês.</p></div></div>
-              <div class="step-row"><span>3</span><div><strong>Gere o calendário</strong><p>Distribua as publicações e altere datas com drag-and-drop.</p></div></div>
-              <div class="step-row"><span>4</span><div><strong>Produza e distribua</strong><p>Crie com IA, edite, organize e leve o conteúdo para o canal desejado.</p></div></div>
-            </div>
-          </div>
-
-          <div class="rounded-[2rem] border border-white/10 bg-white/5 p-3 shadow-2xl">
-            <!-- IMAGEM: substitua o src abaixo por um print real do calendário editorial -->
-            <img src="imgs/calendario-editorial.png" width="1280" height="960" alt="Calendário editorial interativo da Rock Your Business" class="aspect-[4/3] w-full rounded-[1.4rem] object-cover" loading="lazy" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="recursos" class="py-24 lg:py-32">
-      <div class="mx-auto max-w-7xl px-5 lg:px-8">
-        <div class="mx-auto max-w-3xl text-center">
-          <span class="section-kicker">Tudo em um só lugar</span>
-          <h2 class="section-title">Mais do que gerar textos. Um sistema editorial completo.</h2>
-          <p class="section-copy">Cada recurso foi pensado para reduzir o esforço operacional e aumentar a qualidade da presença digital da corretora.</p>
-        </div>
-
-        <div class="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          <article class="feature-card"><span class="icon-box"><i data-lucide="target"></i></span><h3>Perfil Estratégico</h3><p>A plataforma aprende produtos, públicos, pilares, voz e posicionamento antes de produzir.</p></article>
-          <article class="feature-card"><span class="icon-box"><i data-lucide="brain-circuit"></i></span><h3>Ideias Estratégicas</h3><p>Receba mais possibilidades do que precisa e escolha as melhores para o Plano de Publicação.</p></article>
-          <article class="feature-card"><span class="icon-box"><i data-lucide="calendar-days"></i></span><h3>Calendário interativo</h3><p>Organize datas, mova conteúdos e mantenha a execução do mês sob controle.</p></article>
-          <article class="feature-card"><span class="icon-box"><i data-lucide="wand-sparkles"></i></span><h3>Produção com IA</h3><p>Crie posts para as redes sociais, artigos e newsletters a partir do contexto real da corretora.</p></article>
-          <article class="feature-card"><span class="icon-box"><i data-lucide="library-big"></i></span><h3>Biblioteca Inteligente</h3><p>Pesquise, filtre, edite, favorite, duplique e acompanhe o status de cada conteúdo.</p></article>
-          <article class="feature-card"><span class="icon-box"><i data-lucide="send"></i></span><h3>Distribuição simples</h3><p>Copie, exporte em DOCX, PDF, HTML ou Markdown e leve seu conteúdo para qualquer canal.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="overflow-hidden bg-ryb-100 py-24 lg:py-32">
-<div class="mx-auto grid max-w-7xl items-center gap-14 px-5 lg:grid-cols-2 lg:px-8">
-<div class="relative order-2 lg:order-1"><div class="rounded-[2rem] border border-ryb-100 bg-white p-3 shadow-soft">
-<!-- IMAGEM: substituir por print real do Plano de Publicação -->
-<img src="imgs/plano-publicacao.png" width="1280" height="960" alt="Plano de Publicação" class="aspect-[4/3] w-full rounded-[1.4rem] object-cover object-top" loading="lazy"/>
-</div></div>
-<div class="order-1 lg:order-2">
-<span class="section-kicker">Inteligência que planeja</span>
-<h2 class="section-title text-left">Sua estratégia nasce antes do primeiro conteúdo.</h2>
-<p class="section-copy text-left">A plataforma analisa produtos, públicos, pilares e objetivos da sua corretora para montar um Plano de Publicação completo. Antes de produzir qualquer texto, você recebe um mês inteiro de ideias organizadas e escolhe apenas o que faz sentido.</p>
-<ul class="mt-8 space-y-4">
-<li class="benefit-item"><i data-lucide="badge-check"></i><span>Planejamento antes da produção.</span></li>
-<li class="benefit-item"><i data-lucide="badge-check"></i><span>Distribuição equilibrada entre produtos e públicos.</span></li>
-<li class="benefit-item"><i data-lucide="badge-check"></i><span>Conteúdo alinhado aos objetivos da corretora.</span></li>
-<li class="benefit-item"><i data-lucide="badge-check"></i><span>Um mês inteiro organizado em poucos minutos.</span></li>
-</ul></div></div></section>
-
-    <section class="py-24 lg:py-32">
-      <div class="mx-auto max-w-7xl px-5 lg:px-8">
-        <div class="mx-auto max-w-3xl text-center">
-          <span class="section-kicker">Resultados percebidos</span>
-          <h2 class="section-title">O que muda na rotina da sua corretora.</h2>
-        </div>
-        <div class="mt-14 grid gap-5 md:grid-cols-3">
-          <article class="result-card"><strong>Menos tempo</strong><p>para decidir temas, estruturar textos e organizar o calendário.</p></article>
-          <article class="result-card"><strong>Mais consistência</strong><p>para construir presença, confiança e lembrança ao longo do mês.</p></article>
-          <article class="result-card"><strong>Mais autoridade</strong><p>para ser percebido como especialista antes mesmo da primeira conversa comercial.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-slate-50 py-24 lg:py-32">
-      <div class="mx-auto max-w-7xl px-5 lg:px-8">
-        <div class="grid gap-8 lg:grid-cols-[.85fr_1.15fr]">
-          <div>
-            <span class="section-kicker">Feita para o seu mercado</span>
-            <h2 class="section-title text-left">A IA entende tecnologia. Nós entendemos seguros.</h2>
-            <p class="section-copy text-left">A Rock Your Business foi criada com conhecimento real do mercado segurador. Isso significa menos conteúdo genérico e mais comunicação conectada à rotina de corretores, produtos, clientes e oportunidades.</p>
-          </div>
-          <div class="grid gap-4 sm:grid-cols-2">
-            <div class="audience-card"><i data-lucide="briefcase-business"></i><strong>Corretores autônomos</strong><p>que precisam construir uma presença profissional sem aumentar a equipe.</p></div>
-            <div class="audience-card"><i data-lucide="building-2"></i><strong>Pequenas corretoras</strong><p>que querem organizar marketing, produtos e públicos em uma única estratégia.</p></div>
-            <div class="audience-card"><i data-lucide="users-round"></i><strong>Equipes comerciais</strong><p>que desejam transformar conhecimento técnico em conteúdo compartilhável.</p></div>
-            <div class="audience-card"><i data-lucide="rocket"></i><strong>Corretoras em crescimento</strong><p>que precisam escalar autoridade sem perder a identidade da marca.</p></div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="synthesis-section"><div class="mx-auto max-w-5xl px-5 text-center lg:px-8"><span class="section-kicker text-ryb-300">Rock Your Business</span><h2>Tudo começa com uma oportunidade.<br><span>E termina com sua corretora presente.</span></h2><p>Radar encontra oportunidades. Inspire Me traz ideias. A inteligência da RYB transforma temas em conteúdo. Você adapta, organiza e leva sua comunicação para os canais certos.</p><a href="https://app.rockyourbusiness.com.br/signup" class="btn-primary mt-9 px-8 py-3 text-base">Testar grátis por 7 dias <i data-lucide="arrow-right"></i></a><small>Sem cartão de crédito.</small></div></section>
 
     <!-- Rock Your Business Insights -->
     <section id="insights" class="insights-section py-24 lg:py-32" aria-labelledby="insights-title">
@@ -432,19 +303,19 @@
             <span class="insight-link">Ler insight <i data-lucide="arrow-up-right"></i></span>
           </a>
 
-          <article class="insight-card">
-            <div class="insight-meta"><span>CONTEÚDO</span><span>Em breve</span></div>
+          <a class="insight-card" href="30-ideias-de-posts-para-corretora-de-seguros.html">
+            <div class="insight-meta"><span>CONTEÚDO</span><span>9 min de leitura</span></div>
             <h3>30 ideias de posts para corretora de seguros</h3>
             <p>Uma seleção prática de temas para sair do improviso e manter sua corretora presente nas redes sociais.</p>
-            <span class="insight-link insight-link-muted">Em breve</span>
-          </article>
+            <span class="insight-link">Ler insight <i data-lucide="arrow-up-right"></i></span>
+          </a>
 
-          <article class="insight-card">
-            <div class="insight-meta"><span>ESTRATÉGIA</span><span>Em breve</span></div>
+          <a class="insight-card" href="o-que-postar-nas-redes-sociais-corretora-de-seguros.html">
+            <div class="insight-meta"><span>ESTRATÉGIA</span><span>8 min de leitura</span></div>
             <h3>O que postar nas redes sociais de uma corretora de seguros?</h3>
             <p>Um ponto de partida para equilibrar educação, autoridade, produtos, relacionamento e conteúdo comercial.</p>
-            <span class="insight-link insight-link-muted">Em breve</span>
-          </article>
+            <span class="insight-link">Ler insight <i data-lucide="arrow-up-right"></i></span>
+          </a>
         </div>
       </div>
     </section>
@@ -621,7 +492,7 @@
         <div class="faq-list mt-12" data-accordion>
           <details class="faq-item" open>
             <summary><span>O Rock Your Business é apenas um gerador de posts?</span><span class="faq-icon" aria-hidden="true"><i data-lucide="plus"></i></span></summary>
-            <div class="faq-answer"><p>Não. A plataforma organiza toda a jornada editorial: perfil estratégico, ideias, Plano de Publicação, calendário, produção com IA, Biblioteca Inteligente e distribuição.</p></div>
+            <div class="faq-answer"><p>Não. A plataforma combina Radar de oportunidades, Inspire Me, contexto estratégico da corretora, criação de conteúdo para diferentes canais, peças visuais, calendário, biblioteca e publicação.</p></div>
           </details>
           <details class="faq-item">
             <summary><span>Preciso entender de marketing digital?</span><span class="faq-icon" aria-hidden="true"><i data-lucide="plus"></i></span></summary>
@@ -629,7 +500,7 @@
           </details>
           <details class="faq-item">
             <summary><span>Que tipos de conteúdo posso produzir?</span><span class="faq-icon" aria-hidden="true"><i data-lucide="plus"></i></span></summary>
-            <div class="faq-answer"><p>Posts para as redes sociais, artigos e newsletters. Depois, você pode editar, copiar ou exportar em diferentes formatos.</p></div>
+            <div class="faq-answer"><p>Você pode criar conteúdos para LinkedIn, Instagram, Facebook e e-mail, além de peças visuais como carrosséis e stories. Cada formato é trabalhado de acordo com sua função e canal.</p></div>
           </details>
           <details class="faq-item">
             <summary><span>A IA usa as informações da minha corretora?</span><span class="faq-icon" aria-hidden="true"><i data-lucide="plus"></i></span></summary>

@@ -3,7 +3,7 @@ body { overflow-x: hidden; }
 .skip-link { position: fixed; left: 1rem; top: -5rem; z-index: 100; border-radius: 9999px; background: #0f172a; color: white; padding: .75rem 1rem; transition: top .2s; }
 .skip-link:focus { top: 1rem; }
 .nav-link { transition: color .2s ease; }
-.nav-link:hover { color: #ff6600; }
+.nav-link:hover { color: #ff6600; } 
 .btn-primary { display: inline-flex; align-items: center; gap: .55rem; border-radius: 9999px; background: #ff6600; padding: .5rem 1.35rem; color: white; font-weight: 700; box-shadow: 0 12px 30px rgba(255,102,0,.22); transition: transform .2s ease, box-shadow .2s ease, background .2s ease; }
 .btn-primary:hover { transform: translateY(-2px); background: #e85200; box-shadow: 0 16px 38px rgba(255,102,0,.28); }
 .btn-secondary { display: inline-flex; align-items: center; gap: .55rem; border: 1px solid #e2e8f0; border-radius: 9999px; background: white; padding: .5rem 1.35rem; color: #0f172a; font-weight: 700; transition: transform .2s ease, border-color .2s ease, background .2s ease; }

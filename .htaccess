@@ -1,0 +1,27 @@
+# Rock Your Business — Hostinger/Apache routing
+Options -MultiViews
+RewriteEngine On
+
+# Canonical host. Preserve the full path/query when adding www.
+RewriteCond %{HTTP_HOST} ^rockyourbusiness\.com\.br$ [NC]
+RewriteRule ^ https://www.rockyourbusiness.com.br%{REQUEST_URI} [R=301,L,NE]
+
+# Real files and directories always have priority.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Internal endpoint used only to return a real HTTP 404 after client-side
+# partner validation fails.
+RewriteRule ^__partner-not-found__$ - [R=404,L]
+
+# A single clean first-level slug is a candidate partner URL.
+# The browser validates it against the app before persisting attribution.
+RewriteRule ^([a-z0-9]+(?:-[a-z0-9]+)*)/?$ index.html [L,E=RYB_PARTNER_ROUTE:1]
+
+# Keep partner landing aliases out of search indexes; the canonical remains /.
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, follow" env=RYB_PARTNER_ROUTE
+</IfModule>
+
+ErrorDocument 404 /404.html
